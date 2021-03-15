@@ -14,6 +14,7 @@ public class ObserverPattern {
 		System.out.println("Second state change: 10");
 		subject.setState(10);
 		
+		
 
 	
 	}

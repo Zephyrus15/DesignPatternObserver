@@ -11,7 +11,7 @@ public class HexadecimalObserver implements Observer{
 
 	@Override
 	public void update() {
-		System.out.println("Binary String:" + Integer.toHexString(subject.getState()));
+		System.out.println("Hexadecimal String:" + Integer.toHexString(subject.getState()));
 	}
 
 }
